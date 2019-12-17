@@ -1,0 +1,103 @@
+body{
+	padding: 5px;
+}
+
+h1{
+	font-family: sans-serif;
+	font-size: 50px;
+	text-align: center;
+}
+.ch{
+	background-color: rgb(207, 96, 96);
+}
+.be{
+	background-color: rgb(68, 216, 221);
+}
+.su{
+	background-color: rgb(160, 52, 33);
+}
+/* FOR LAPTOP */
+@media(min-width: 992px){
+body{
+	padding: 5px;
+}
+
+p{	
+	padding: 15px;
+	background-color: gray;
+	width: 30%;
+	border: 2px solid black;
+	float: left;
+	margin-right: 10px;
+}
+span{
+	margin-top: -17px;
+	margin-right: -17px;
+	float: right;
+	width: 80px
+	padding: 20px;
+	font-size: 20px;
+	border: 2px solid black;	
+}
+
+}
+/* TAB MODE*/
+@media(min-width: 768px) and (max-width: 991px){
+	body{
+		padding: 5px;
+}
+	p{	
+		padding: 15px;
+		background-color: gray;
+		border: 2px solid black;
+		float: left;
+		margin-right: 10px;
+}
+	span{
+		margin-top: -17px;
+		margin-right: -17px;
+		float: right;
+		width: 80px
+		padding: 20px;
+		font-size: 20px;
+		border: 2px solid black;	
+}
+	#p1{
+		float: left;
+		width:44%;
+}
+	#p2{
+		float: right;
+		width: 44%;
+}
+	#p3{
+		width: 95%;
+}
+
+}
+@media(max-width: 767px){
+	body{
+	padding: 5px;
+}
+		p{	
+	padding: 15px;
+	background-color: gray;
+	border: 2px solid black;
+	float: left;
+	margin-right: 10px;
+}
+span{
+	margin-top: -17px;
+	margin-right: -17px;
+	float: right;
+	width: 80px
+	padding: 20px;
+	font-size: 20px;
+	border: 2px solid black;	
+}
+
+}
+
+
+
+
